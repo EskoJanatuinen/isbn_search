@@ -1,6 +1,6 @@
 # ISBN_search
 
-A Python script for scanning ISBNs (barcodes) to check if the book is already listed in our webshop.
+A Python script for scanning ISBNs (barcodes) to check if a book is already listed in our webshop.
 
 Main.py runs the program. 
 
