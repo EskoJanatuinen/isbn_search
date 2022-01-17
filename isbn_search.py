@@ -13,12 +13,12 @@ def scanning():
     while True:
         input_isbn = str(input("\nRead ISBN:  "))
         if input_isbn == "":
-            print("Quitting")
+            print("\n  Quitting\n")
             break
         # Validation
         isbn13 = isbnlib.to_isbn13(input_isbn)  # Convert to isbn13 if isbn10
         if not isbnlib.is_isbn13(isbn13):
-            print("Not ISBN")
+            print("\n  Not ISBN")
             continue
         # Query
         cur.execute(
