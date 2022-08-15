@@ -22,7 +22,7 @@ def scanning():
             continue
         # Query
         cur.execute(
-            "SELECT COUNT(vapaasaldo) FROM data WHERE kuvaus=? GROUP BY kuvaus",
+            "SELECT SUM(vapaasaldo) FROM data WHERE kuvaus=? GROUP BY kuvaus",
             (isbn13,),
         )
         result = cur.fetchall()
