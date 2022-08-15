@@ -2,6 +2,9 @@
 
 A Python script for scanning ISBNs (barcodes) to check if a book is already listed in our webshop.
 
+<i>This is an older version of the script.
+Check out the new version with with added features and optimized iteration algorithm <a href="https://github.com/EskoJanatuinen/isbn_search/" target="_blank">here</a>.</i>
+
 Main.py runs the program. 
 
 Updates listed online products to a local SQLite database daily. Scanned ISBN-barcodes are compared to this list. 
